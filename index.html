@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ციფრული მოქალაქე - პორტფოლიო | რუსთავის #12 საჯარო სკოლა</title>
+  <meta name="description" content="კომპიუტერული ტექნოლოგიების მასწავლებლის ელზა ბაგალიშვილის პედაგოგიური პორტფოლიო - რუსთავის #12 საჯარო სკოლა. ეროვნული სასწავლო გეგმა, Scratch კოდირება და სამოქალაქო განათლება.">
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <div class="logo-badge">#12</div>
+        <div class="logo-text">
+          <span class="logo-title">ციფრული მოქალაქე</span>
+          <span class="logo-sub">რუსთავის #12 საჯარო სკოლა</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#curriculum" class="nav-link">სამიზნე ცნებები</a></li>
+        <li><a href="#task-brief" class="nav-link">დავალების პირობა</a></li>
+        <li><a href="#timeline" class="nav-link">ეტაპები</a></li>
+        <li><a href="#showcase" class="nav-link">მოსწავლეთა SOLO ნამუშევრები</a></li>
+        <li><a href="#reflection" class="nav-link">მასწავლებლის რეფლექსია</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggle" title="თემის შეცვლა">
+          <i class="fa-solid fa-moon"></i>
+          <span>მუქი თემა</span>
+        </button>
+        <button class="print-btn" onclick="window.print()" title="ამობეჭდვა / PDF">
+          <i class="fa-solid fa-print"></i>
+          <span>ბეჭდვა</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-group">
+          <span class="hero-badge"><i class="fa-solid fa-school"></i> რუსთავის #12 საჯარო სკოლა</span>
+          <span class="hero-badge green"><i class="fa-solid fa-graduation-cap"></i> V-VI კლასები</span>
+          <span class="hero-badge"><i class="fa-solid fa-laptop-code"></i> კომპიუტერული ტექნოლოგიები</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span>ციფრული მოქალაქე</span><br>
+          ინტეგრირებული სასწავლო პროექტი
+        </h1>
+
+        <p class="hero-subtitle">
+          ინოვაციური კომპლექსური დავალება V-VI კლასის მოსწავლეებისთვის, სადაც Scratch-ის ვიზუალური კოდირება და სამოქალაქო პასუხისმგებლობა ერთიანდება უსაფრთხო ციფრული გარემოს შესაქმნელად.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#showcase" class="btn btn-primary">
+            <i class="fa-solid fa-layer-group"></i> ნამუშევრების დათვალიერება
+          </a>
+          <a href="#reflection" class="btn btn-secondary">
+            <i class="fa-solid fa-quote-left"></i> მასწავლებლის რეფლექსია
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">32+</div>
+            <div class="stat-label">მოსწავლე</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3</div>
+            <div class="stat-label">სამიზნე ცნება</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">SOLO დონე</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">ჩართულობა</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teacher Hero Card -->
+      <div class="hero-teacher-column">
+        <div class="teacher-hero-card">
+          <div class="teacher-avatar-wrapper">
+            <img src="assets/teacher_avatar.jpg" alt="ელზა ბაგალიშვილი" class="teacher-avatar-img">
+            <div class="teacher-avatar-badge" title="სერტიფიცირებული მასწავლებელი">
+              <i class="fa-solid fa-check"></i>
+            </div>
+          </div>
+          <h2 class="teacher-name">ელზა ბაგალიშვილი</h2>
+          <p class="teacher-role">კომპიუტერული ტექნოლოგიების მასწავლებელი</p>
+          <div class="school-tag">
+            <i class="fa-solid fa-location-dot"></i> სსიპ რუსთავის #12 საჯარო სკოლა
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Curriculum Alignment -->
+  <section class="section-padding" id="curriculum">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-book-bookmark"></i> ეროვნული სასწავლო გეგმა</span>
+        <h2 class="section-title">ახალი ეროვნული სასწავლო გეგმის სამიზნე ცნებები</h2>
+        <p class="section-subtitle">
+          კომპლექსური დავალება ეფუძნება კომპიუტერული ტექნოლოგიების სტანდარტით განსაზღვრულ 3 ძირითად სამიზნე ცნებასა და მაკროცნებებს.
+        </p>
+      </div>
+
+      <div class="curriculum-grid">
+        <!-- Concept 1: Coding -->
+        <div class="concept-card coding">
+          <div class="concept-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="concept-title">1. კოდირება</h3>
+          <p class="concept-desc">
+            ალგორითმული აზროვნება, Scratch-ის ვიზუალური პროგრამირების ბლოკები, პირობითი ოპერატორები (if-then-else), ციკლები (loops) და ცვლადები ინტერაქციული სცენარების ასაგებად.
+          </p>
+          <div class="concept-meta-box">
+            <div class="meta-title"><i class="fa-solid fa-tags"></i> ქვეცნებები</div>
+            <div class="meta-tags">
+              <span class="meta-tag">ალგორითმი</span>
+              <span class="meta-tag">Scratch</span>
+              <span class="meta-tag">ციკლი</span>
+              <span class="meta-tag">შეტყობინება (Broadcast)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Concept 2: Information -->
+        <div class="concept-card info">
+          <div class="concept-icon">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+          <h3 class="concept-title">2. ინფორმაცია</h3>
+          <p class="concept-desc">
+            პერსონალური მონაცემების დაცვა, ციფრული ნაკვალევი, ონლაინ უსაფრთხოება, ძლიერი პაროლის შექმნის წესები და საავტორო უფლებები ციფრულ სივრცეში.
+          </p>
+          <div class="concept-meta-box">
+            <div class="meta-title"><i class="fa-solid fa-tags"></i> ქვეცნებები</div>
+            <div class="meta-tags">
+              <span class="meta-tag">კიბერუსაფრთხოება</span>
+              <span class="meta-tag">პაროლის დაცვა</span>
+              <span class="meta-tag">ციფრული ნაკვალევი</span>
+              <span class="meta-tag">საავტორო უფლება</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Concept 3: Computer Systems -->
+        <div class="concept-card systems">
+          <div class="concept-icon">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h3 class="concept-title">3. კომპიუტერული სისტემები</h3>
+          <p class="concept-desc">
+            ციფრული მოწყობილობებისა და ინტერნეტ-ქსელების ფუნქციონირება, პროგრამული უზრუნველყოფის გამოყენება და ინფორმაციის ეფექტიანი გაზიარება.
+          </p>
+          <div class="concept-meta-box">
+            <div class="meta-title"><i class="fa-solid fa-tags"></i> ქვეცნებები</div>
+            <div class="meta-tags">
+              <span class="meta-tag">ინტერნეტ-ქსელი</span>
+              <span class="meta-tag">პროგრამული უზრუნველყოფა</span>
+              <span class="meta-tag">მონაცემთა გაცვლა</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Task Brief & Scratch Elements -->
+  <section class="section-padding" id="task-brief" style="background: var(--bg-card-alt);">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-puzzle-piece"></i> კომპლექსური დავალება</span>
+        <h2 class="section-title">დავალების პირობა & Scratch-ის ბლოკები</h2>
+        <p class="section-subtitle">
+          მოსწავლეთა შემოქმედებითი გამოწვევით იქმნება ინტერაქციული პროექტი სამოქალაქო განათლებისა და IT უნარების სინთეზით.
+        </p>
+      </div>
+
+      <div class="task-box">
+        <div class="task-header-bar">
+          <div class="task-title">
+            <i class="fa-solid fa-bullhorn"></i> დავალების თემა: „ჩემი ციფრული უსაფრთხოება და ეტიკეტი“
+          </div>
+          <span class="task-badge">სამოქალაქო + IT ინტეგრაცია</span>
+        </div>
+
+        <div class="task-content-grid">
+          <div class="task-description">
+            <h4><i class="fa-solid fa-lightbulb" style="color: var(--tech-cyan);"></i> დავალების პირობის აღწერა</h4>
+            <p>
+              წარმოიდგინე, რომ ხარ სკოლის ციფრული ელჩი. შექმენი ინტერაქციული ანიმაცია ან თამაში <strong>Scratch</strong>-ში, სადაც შენი პერსონაჟები თანაკლასელებს ასწავლიან ინტერნეტში უსაფრთხო ქცევის ოქროს წესებს, ძლიერი პაროლის გენერირებასა და კიბერბულინგისგან თავდაცვას.
+            </p>
+
+            <div class="civic-integration-box">
+              <div class="civic-title">
+                <i class="fa-solid fa-handshake"></i> სამოქალაქო განათლების ინტეგრაცია:
+              </div>
+              <div class="civic-text">
+                პატივისცემა ონლაინ კომუნიკაციაში, სხვისი პერსონალური სივრცის დაცვა, ეთიკური ქცევა ინტერნეტში და პასუხისმგებლიანი ციფრული მოქალაქეობა.
+              </div>
+            </div>
+
+            <ul style="margin-left: 1.25rem; font-size: 0.9rem; color: var(--text-main);">
+              <li style="margin-bottom: 0.4rem;">პროექტში ჩართული უნდა იყოს მინიმუმ 2 სპრაიტი (Sprite).</li>
+              <li style="margin-bottom: 0.4rem;">გამოყენებული უნდა იყოს პირობითი ოპერატორი `if-then-else`.</li>
+              <li style="margin-bottom: 0.4rem;">პერსონაჟმა უნდა დავსვას კითხვა და შეამოწმოს მომხმარებლის პასუხი.</li>
+            </ul>
+          </div>
+
+          <!-- Highlighted Scratch Code Snippet -->
+          <div class="scratch-code-container">
+            <div class="scratch-header">
+              <span class="scratch-title-tag">
+                <i class="fa-solid fa-cubes"></i> Scratch კოდის ალგორითმი
+              </span>
+              <span style="font-size: 0.75rem; color: #A6ADC8;">Visual Blocks</span>
+            </div>
+
+            <div class="scratch-blocks-wrapper">
+              <div class="sb-block sb-event">
+                <i class="fa-solid fa-flag"></i> როდესაც დროშას დააჭერ
+              </div>
+              <div class="sb-block sb-looks">
+                თქვი <span class="sb-arg">„გამარჯობა! იყავი უსაფრთხო ციფრული მოქალაქე!“</span> 2 წამი
+              </div>
+              <div class="sb-block sb-sensing">
+                ჰკითხე <span class="sb-arg">„შეიყვანე შენი პაროლი შემოწმებისთვის:“</span> და დაელოდე
+              </div>
+              <div class="sb-block sb-control">
+                თუ <span class="sb-arg">პასუხის სიგრძე > 8</span> მაშინ
+              </div>
+              <div class="sb-block sb-looks sb-indent">
+                თქვი <span class="sb-arg">„შესანიშნავია! ეს არის ძლიერი პაროლი!“</span> 2 წამი
+              </div>
+              <div class="sb-block sb-control">
+                სხვა შემთხვევაში
+              </div>
+              <div class="sb-block sb-looks sb-indent">
+                თქვი <span class="sb-arg">„ყურადღება! პაროლი სუსტია. დაამატე ციფრები!“</span> 2 წამი
+              </div>
+              <div class="sb-block sb-logic">
+                გააგზავნე შეტყობინება <span class="sb-arg">„cyber_safe_done“</span>
+              </div>
+            </div>
+
+            <button class="copy-code-btn" id="copyCodeBtn">
+              <i class="fa-regular fa-copy"></i> კოდის ალგორითმის კოპირება
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Implementation Timeline -->
+  <section class="section-padding" id="timeline">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-route"></i> განხორციელების გზამკვლევი</span>
+        <h2 class="section-title">სასწავლო პროცესის 4-ეტაპიანი რუკა</h2>
+        <p class="section-subtitle">
+          კომპლექსურ დავალებაზე მუშაობის თანმიმდევრული ეტაპები იდეიდან საბოლოო პრეზენტაციამდე.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Step 1 -->
+        <div class="timeline-step">
+          <div class="step-marker">1</div>
+          <div class="step-card">
+            <span class="step-tag">ეტაპი 1 | მზადება</span>
+            <h3 class="step-title">თეორიული საფუძვლები და იდეები</h3>
+            <p class="step-desc">
+              მოსწავლეები ეცნობიან ონლაინ უსაფრთხოების წესებს, მსჯელობენ ციფრული მოქალაქის პასუხისმგებლობაზე და ქმნიან მომავალი Scratch ანიმაციის სცენარს ქაღალდზე.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-step">
+          <div class="step-marker">2</div>
+          <div class="step-card">
+            <span class="step-tag">ეტაპი 2 | კოდირება</span>
+            <h3 class="step-title">ალგორითმი და Scratch პროგრამირება</h3>
+            <p class="step-desc">
+              სპრაიტების და ფონების შერჩევა/დახატვა, კოდის სტრუქტურის აგება, პირობითი ოპერატორების (if-then-else) და ციკლების გამოყენება ინტერაქციის შესაქმნელად.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-step">
+          <div class="step-marker">3</div>
+          <div class="step-card">
+            <span class="step-tag">ეტაპი 3 | პრაქტიკა</span>
+            <h3 class="step-title">წყვილებში მუშაობა და Debugging</h3>
+            <p class="step-desc">
+              მოსწავლეები მუშაობენ წყვილებში, ტესტავენ ერთმანეთის კოდს, ასწორებენ ხარვეზებს (Debugging) და იძლევიან ურთიერთშეფასებას.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-step">
+          <div class="step-marker">4</div>
+          <div class="step-card">
+            <span class="step-tag">ეტაპი 4 | პრეზენტაცია</span>
+            <h3 class="step-title">წარდგენა და SOLO შეფასება</h3>
+            <p class="step-desc">
+              ნამუშევრების პრეზენტაცია კლასის წინაშე. მასწავლებლის მიერ მოსწავლის მიღწევების შეფასება SOLO ტაქსონომიის მიხედვით და განმავითარებელი უკუკავშირი.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Student Showcase & SOLO Grid -->
+  <section class="section-padding" id="showcase" style="background: var(--bg-card-alt);">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-trophy"></i> მოსწავლეთა ნამუშევრები</span>
+        <h2 class="section-title">SOLO ტაქსონომიით შეფასებული პროექტები</h2>
+        <p class="section-subtitle">
+          მოსწავლეთა მიერ შექმნილი Scratch პროექტები, რომლებიც შეფასებულია ოთხივე SOLO დონის მიხედვით.
+        </p>
+      </div>
+
+      <!-- Filter Controls & Search -->
+      <div class="filter-controls">
+        <div class="filter-buttons" id="filterBtns">
+          <button class="filter-btn active" data-filter="all">ყველა დონე</button>
+          <button class="filter-btn" data-filter="extended">აბსტრაქტული დონე</button>
+          <button class="filter-btn" data-filter="relational">მიმართებითი დონე</button>
+          <button class="filter-btn" data-filter="multistructural">მულტიტრუქტურული</button>
+          <button class="filter-btn" data-filter="unistructural">უნისტრუქტურული</button>
+        </div>
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="searchInput" class="search-input" placeholder="ძებნა მოსწავლის ან თემის მიხედვით...">
+        </div>
+      </div>
+
+      <!-- Showcase Cards Grid -->
+      <div class="showcase-grid" id="showcaseGrid">
+
+        <!-- Student 1 -->
+        <div class="student-card" data-solo="extended" data-name="ანი ნოზაძე" data-topic="ინტერნეტ-მაშველები">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="ინტერნეტ-მაშველები">
+            <span class="solo-badge solo-extended">აბსტრაქტული დონე</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> ანი ნოზაძე</span>
+              <span>VI<sup>ა</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„ინტერნეტ-მაშველები“</h3>
+            <p class="project-desc">
+              კომპლექსური თამაში მრავალდონიანი ალგორითმით, სადაც მოთამაშე იცავს პერსონალურ მონაცემებს და სხვებს ეხმარება ონლაინ ბულინგის დროს.
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „ანის შეუძლია მიღებული ცოდნის განზოგადება და ახალ კონტექსტში გამოყენება.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('ani')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="student-card" data-solo="relational" data-name="გიორგი ბერიძე" data-topic="უსაფრთხო პაროლის გენერატორი">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="პაროლის გენერატორი">
+            <span class="solo-badge solo-relational">მიმართებითი დონე</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> გიორგი ბერიძე</span>
+              <span>V<sup>ბ</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„უსაფრთხო პაროლი“</h3>
+            <p class="project-desc">
+              ინტერაქციული პროგრამა, რომელიც ამოწმებს პაროლის სიგრძეს და ცვლადების საშუალებით აფასებს უსაფრთხოების დონეს.
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „გიორგი კარგად აკავშირებს მიზეზ-შედეგობრივ კავშირებს `if-then-else` ბლოკებში.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('giorgi')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="student-card" data-solo="multistructural" data-name="ნინო კაპანაძე" data-topic="კიბერ-ეტიკეტის გზამკვლევი">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="კიბერ-ეტიკეტი">
+            <span class="solo-badge solo-multistructural">მულტიტრუქტურული</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> ნინო კაპანაძე</span>
+              <span>VI<sup>ბ</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„კიბერ-ეტიკეტის წესები“</h3>
+            <p class="project-desc">
+              ანიმაცია 3 სხვადასხვა სცენარით. სპრაიტები საუბრობენ ონლაინ ეტიკეტზე, თუმცა ბლოკებს შორის კავშირი ხაზოვანია.
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „ნინო იყენებს რამდენიმე დამოუკიდებელ ბლოკს, სასურველია მეტი ინტერაქცია.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('nino')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="student-card" data-solo="unistructural" data-name="დავით ხმალაძე" data-topic="პაროლის შემოწმება">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="პაროლის შემოწმება">
+            <span class="solo-badge solo-unistructural">უნისტრუქტურული</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> დავით ხმალაძე</span>
+              <span>V<sup>ა</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„ჩემი პირველი სპრაიტი“</h3>
+            <p class="project-desc">
+              პროექტში სპრაიტი ამბობს 1 ფრაზას უსაფრთხოებაზე. გამოყენებულია მხოლოდ 1-2 მარტივი ბლოკი.
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „დავითი ასრულებს 1 მარტივ ოპერაციას. საჭიროებს დამხმარე მინიშნებებს.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('davit')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+        <!-- Student 5 -->
+        <div class="student-card" data-solo="extended" data-name="მარიამ ქავთარაძე" data-topic="ციფრული ნაკვალევი">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="ციფრული ნაკვალევი">
+            <span class="solo-badge solo-extended">აბსტრაქტული დონე</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> მარიამ ქავთარაძე</span>
+              <span>VI<sup>ა</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„ციფრული ნაკვალევი“</h3>
+            <p class="project-desc">
+              ორიგინალური ანიმაციური ისტორია, სადაც პერსონაჟი განმარტავს ინტერნეტში ინფორმაციის წარუშლელობას და სოციალურ პასუხისმგებლობას.
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „მარიამმა შეძლო სამოქალაქო პრობლემის ღრმა გააზრება და შემოქმედებითი გადაწყვეტა.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('mariam')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+        <!-- Student 6 -->
+        <div class="student-card" data-solo="relational" data-name="ლუკა ჯაფარიძე" data-topic="ონლაინ მეგობრობა">
+          <div class="card-img-wrapper">
+            <img src="assets/scratch_preview.jpg" alt="ონლაინ მეგობრობა">
+            <span class="solo-badge solo-relational">მიმართებითი დონე</span>
+          </div>
+          <div class="card-body">
+            <div class="student-meta">
+              <span><i class="fa-solid fa-user"></i> ლუკა ჯაფარიძე</span>
+              <span>V<sup>ბ</sup> კლასი</span>
+            </div>
+            <h3 class="project-title">„ონლაინ მეგობრობა“</h3>
+            <p class="project-desc">
+              ვიქტორინის ტიპის პროექტი, სადაც სწორი პასუხების შემთხვევაში ქულები იმატებს ცვლადში (Score).
+            </p>
+            <div class="teacher-feedback-preview">
+              <i class="fa-solid fa-comment-dots"></i> „ლუკამ წარმატებით გამოიყენა ცვლადი და პირობითი ოპერატორი.“
+            </div>
+            <button class="card-action-btn" onclick="openStudentModal('luka')">
+              <i class="fa-solid fa-code"></i> სრული კოდი & შეფასება
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Assessment Rubrics Table -->
+      <div class="rubric-container">
+        <div class="rubric-header">
+          <h3 style="font-size: 1.25rem; font-weight: 800;"><i class="fa-solid fa-table-list"></i> SOLO ტაქსონომიის შეფასების რუბრიკა</h3>
+          <span style="font-size: 0.85rem; background: rgba(255,255,255,0.2); padding: 0.2rem 0.6rem; border-radius: 4px;">კომპიუტერული ტექნოლოგიები</span>
+        </div>
+        <div style="overflow-x: auto;">
+          <table class="rubric-table">
+            <thead>
+              <tr>
+                <th>SOLO დონე</th>
+                <th>კოდირების უნარი (Scratch)</th>
+                <th>სამოქალაქო ცნობიერება & შინაარსი</th>
+                <th>განმავითარებელი რეკომენდაცია</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="solo-badge solo-unistructural">უნისტრუქტურული</span></td>
+                <td>იყენებს მხოლოდ 1 მარტივ ბლოკს (მაგ. `say`). ალგორითმული ჯაჭვი არ არის.</td>
+                <td>ასახელებს მხოლოდ 1 წესს უსაფრთხოებაზე სიღრმისეული გააზრების გარეშე.</td>
+                <td>სთხოვეთ მოსწავლეს დაამატოს მეორე სპრაიტი და გამოიყენოს კითხვა-პასუხის ბლოკი.</td>
+              </tr>
+              <tr>
+                <td><span class="solo-badge solo-multistructural">მულტიტრუქტურული</span></td>
+                <td>იყენებს რამდენიმე დამოუკიდებელ ბლოკს, თუმცა კოდი ხაზოვანია (ლოგიკური განშტოების გარეშე).</td>
+                <td>ჩამოთვლის ონლაინ უსაფრთხოების რამდენიმე წესს, თუმცა ვერ აკავშირებს მათ ერთმანეთთან.</td>
+                <td>შესთავაზეთ `if-then-else` პირობითი ოპერატორის გამოყენება პასუხის შემოწმებისთვის.</td>
+              </tr>
+              <tr>
+                <td><span class="solo-badge solo-relational">მიმართებითი</span></td>
+                <td>აკავშირებს კოდის სტრუქტურებს, იყენებს პირობით ოპერატორებს, ცვლადებს და `broadcast` შეტყობინებებს.</td>
+                <td>ხსნის მიზეზ-შედეგობრივ კავშირს უსაფრთხო პაროლსა და მონაცემთა დაცვას შორის.</td>
+                <td>წაახალისეთ, რომ შექმნას მრავალდონიანი თამაში ან დაამატოს ორიგინალური სცენარი.</td>
+              </tr>
+              <tr>
+                <td><span class="solo-badge solo-extended">აბსტრაქტული</span></td>
+                <td>ქმნის კომპლექსურ, ოპტიმიზებულ ალგორითმს; იყენებს საკუთარ ბლოკებსა და რთულ ლოგიკას.</td>
+                <td>განაზოგადებს მიღებულ ცოდნას, სთავაზობს ორიგინალურ სამოქალაქო ინიციატივას ონლაინ სივრცეში.</td>
+                <td>შესთავაზეთ თანაკლასელების მენტორობა და პროექტის სკოლის მასშტაბით წარდგენა.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Teacher Reflection -->
+  <section class="section-padding" id="reflection">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-chalkboard-user"></i> პედაგოგიური პრაქტიკა</span>
+        <h2 class="section-title">მასწავლებლის პროფესიული რეფლექსია</h2>
+        <p class="section-subtitle">
+          რუსთავის #12 საჯარო სკოლის კომპიუტერული ტექნოლოგიების მასწავლებელ ელზა ბაგალიშვილის რეფლექსია.
+        </p>
+      </div>
+
+      <div class="reflection-card">
+        <div class="reflection-header">
+          <img src="assets/teacher_avatar.jpg" alt="ელზა ბაგალიშვილი" class="reflection-avatar">
+          <div class="reflection-author">
+            <h3>ელზა ბაგალიშვილი</h3>
+            <p>კომპიუტერული ტექნოლოგიების მასწავლებელი | რუსთავის #12 საჯარო სკოლა</p>
+          </div>
+        </div>
+
+        <p style="font-size: 1.05rem; line-height: 1.7; color: #EDF2F7; margin-bottom: 2rem;">
+          „ახალი ეროვნული სასწავლო გეგმის დანერგვამ კომპიუტერულ ტექნოლოგიებში სრულიად შეცვალა სწავლა-სწავლების მიდგომა. კომპლექსურ დავალებაზე „ციფრული მოქალაქე“ მუშაობამ აჩვენა, რომ როდესაც ტექნოლოგიური უნარები (Scratch პროგრამირება) ინტეგრირდება რეალურ სამოქალაქო გამოწვევებთან, მოსწავლეთა მოტივაცია ასმაგდება.“
+        </p>
+
+        <div class="reflection-grid">
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-diagram-project"></i> ინტეგრირებული სწავლება</h4>
+            <p>
+              სამოქალაქო განათლებისა და IT-ის სინთეზმა მოსწავლეებს დაანახა, რომ კოდირება არ არის მხოლოდ ციფრული ბლოკების წყობა, არამედ საზოგადოებრივი პრობლემის გადაჭრის მძლავრი ინსტრუმენტია.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-sliders"></i> დიფერენცირებული მიდგომა</h4>
+            <p>
+              SOLO ტაქსონომიის გამოყენებით შევძელი თითოეული მოსწავლის ინდივიდუალური პროგრესის შეფასება. სუსტი აკადემიური მზაობის მოსწავლეებმაც კი (უნისტრუქტურული დონე) შეძლეს წარმატების განცდა.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-triangle-exclamation"></i> გამოწვევები და გადაჭრა</h4>
+            <p>
+              ძირითადი გამოწვევა იყო ლოგიკური განშტოებების გააზრება (`if-else`). წყვილებში თანამშრომლობამ და ურთიერთსწავლებამ ხარვეზები ეფექტიანად აღმოფხვრა.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h4><i class="fa-solid fa-chart-line"></i> მიღწეული შედეგი</h4>
+            <p>
+              მოსწავლეთა 85%-მა მიაღწია მიმართებით და აბსტრაქტულ დონეს. შეიქმნა უსაფრთხო ციფრული ქცევის სკოლის შიდა გზამკვლევი.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <button class="btn btn-primary" onclick="openReflectionModal()">
+            <i class="fa-solid fa-file-contract"></i> სრული ვრცელი რეფლექსიის წაკითხვა
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>ციფრული მოქალაქე</h4>
+          <p>
+            რუსთავის #12 საჯარო სკოლის კომპიუტერული ტექნოლოგიების პედაგოგიური პორტფოლიო. ეროვნული სასწავლო გეგმის სტანდარტების შესაბამისად.
+          </p>
+          <p style="margin-top: 0.75rem; font-weight: 600; color: #63B3ED;">
+            მასწავლებელი: ელზა ბაგალიშვილი
+          </p>
+        </div>
+
+        <div>
+          <h5 class="footer-links-title">საგანმანათლებლო რესურსები</h5>
+          <ul class="footer-links">
+            <li>
+              <a href="https://compdav.geolab.edu.ge" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> compdav.geolab.edu.ge
+              </a>
+            </li>
+            <li>
+              <a href="https://school.emis.ge" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> school.emis.ge (EMIS)
+              </a>
+            </li>
+            <li>
+              <a href="https://scratch.mit.edu" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> scratch.mit.edu
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-links-title">სკოლის რეკვიზიტები</h5>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-location-dot" style="color: #63B3ED;"></i> ქ. რუსთავი, #12 საჯარო სკოლა</li>
+            <li><i class="fa-solid fa-laptop-code" style="color: #63B3ED;"></i> კომპიუტერული ტექნოლოგიების კათედრა</li>
+            <li><i class="fa-solid fa-calendar" style="color: #63B3ED;"></i> 2026 სასწავლო წელი</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 „ციფრული მოქალაქე“ - რუსთავის #12 საჯარო სკოლა. ყველა უფლება დაცულია.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Student Work Modal -->
+  <div class="modal-overlay" id="studentModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalStudentTitle">პროექტის დეტალები</h3>
+        <button class="modal-close-btn" onclick="closeStudentModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="modalStudentBody">
+        <!-- Content inserted dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Teacher Reflection Full Modal -->
+  <div class="modal-overlay" id="reflectionModal">
+    <div class="modal-container" style="max-width: 900px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-pen-nib"></i> ელზა ბაგალიშვილის ვრცელი რეფლექსია</h3>
+        <button class="modal-close-btn" onclick="closeReflectionModal()">&times;</button>
+      </div>
+      <div class="modal-body" style="line-height: 1.8; font-size: 0.975rem;">
+        <h4 style="color: var(--tech-cyan); margin-bottom: 0.75rem;">შესავალი და პედაგოგიური კონტექსტი</h4>
+        <p style="margin-bottom: 1rem;">
+          სსიპ რუსთავის #12 საჯარო სკოლის V-VI კლასებში კომპიუტერული ტექნოლოგიების სწავლებისას ჩემს მთავარ მიზანს წარმოადგენდა მოსწავლეებში არა მხოლოდ ტექნიკური (კოდირების) უნარების განვითარება, არამედ მათი ჩამოყალიბება პასუხისმგებლიან ციფრულ მოქალაქეებად.
+        </p>
+
+        <h4 style="color: var(--tech-cyan); margin-bottom: 0.75rem;">ინტეგრირებული სწავლების ძალა</h4>
+        <p style="margin-bottom: 1rem;">
+          კომპლექსური დავალების „ციფრული მოქალაქე“ ფარგლებში გაერთიანდა კომპიუტერული ტექნოლოგიებისა და სამოქალაქო განათლების სტანდარტები. მოსწავლეებმა Scratch-ის გარემოში შექმნეს ინტერაქციული სცენარები, სადაც პერსონაჟები ერთმანეთს ასწავლიან ინტერნეტში უსაფრთხო ქცევას, ძლიერი პაროლის შექმნასა და ონლაინ ბულინგისგან თავდაცვას.
+        </p>
+
+        <h4 style="color: var(--tech-cyan); margin-bottom: 0.75rem;">SOLO ტაქსონომია და დიფერენცირება</h4>
+        <p style="margin-bottom: 1rem;">
+          შეფასებისას გამოვიყენე SOLO ტაქსონომია. ამ მოდელმა მომცა საშუალება ზუსტად განმეზღვრა თითოეული მოსწავლის აზროვნების დონე:
+        </p>
+        <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+          <li><strong>უნისტრუქტურული დონე:</strong> მოსწავლეები, რომლებიც საჭიროებდნენ დამატებით ფასილიტაციას ბლოკების შესარჩევად.</li>
+          <li><strong>მულტიტრუქტურული დონე:</strong> მოსწავლეები, რომლებიც რამდენიმე ინსტრუქციას ასრულებდნენ, თუმცა ლოგიკური განშტოება უჭირდათ.</li>
+          <li><strong>მიმართებითი დონე:</strong> მოსწავლეები, რომლებმაც წარმატებით გამოიყენეს `if-then-else` ოპერატორები და ცვლადები.</li>
+          <li><strong>აბსტრაქტული დონე:</strong> მოსწავლეები, რომლებმაც შექმნეს მრავალდონიანი თამაშები და შესთავაზეს ორიგინალური სამოქალაქო ინიციატივები.</li>
+        </ul>
+
+        <h4 style="color: var(--tech-cyan); margin-bottom: 0.75rem;">დასკვნა</h4>
+        <p>
+          პროექტმა დაადასტურა, რომ მოსწავლეზე ორიენტირებული დავალებები და კონსტრუქტივისტული მიდგომა უზრუნველყოფს ხანგრძლივ და გააზრებულ ცოდნას.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
