@@ -160,7 +160,7 @@ function initMobileMenu() {
    ------------------------------------------ */
 const studentData = {
   ani: {
-    name: 'ანი ნოზაძე',
+    name: 'ანი',
     grade: 'VI კლასი',
     topic: 'ინტერნეტ-მაშველები',
     solo: 'აბსტრაქტული დონე',
@@ -178,7 +178,7 @@ end`,
     rubricScore: '4/4 - აბსტრაქტული (Extended Abstract)'
   },
   giorgi: {
-    name: 'გიორგი ბერიძე',
+    name: 'გიორგი',
     grade: 'V კლასი',
     topic: 'უსაფრთხო პაროლის გენერატორი',
     solo: 'მიმართებითი დონე',
@@ -195,7 +195,7 @@ end`,
     rubricScore: '3/4 - მიმართებითი (Relational)'
   },
   nino: {
-    name: 'ნინო კაპანაძე',
+    name: 'ნინო',
     grade: 'VI კლასი',
     topic: 'კიბერ-ეტიკეტის წესები',
     solo: 'მულტიტრუქტურული დონე',
@@ -209,7 +209,7 @@ say [წესი 2: დაიცავი პაროლი] for (2) secs`,
     rubricScore: '2/4 - მულტიტრუქტურული (Multistructural)'
   },
   davit: {
-    name: 'დავით ხმალაძე',
+    name: 'დავით',
     grade: 'V კლასი',
     topic: 'ჩემი პირველი სპრაიტი',
     solo: 'უნისტრუქტურული დონე',
@@ -221,7 +221,7 @@ say [დაიცავი შენი პაროლი!] for (2) secs`,
     rubricScore: '1/4 - უნისტრუქტურული (Unistructural)'
   },
   mariam: {
-    name: 'მარიამ ქავთარაძე',
+    name: 'მარიამ',
     grade: 'VI კლასი',
     topic: 'ციფრული ნაკვალევი',
     solo: 'აბსტრაქტული დონე',
@@ -237,7 +237,7 @@ end`,
     rubricScore: '4/4 - აბსტრაქტული (Extended Abstract)'
   },
   luka: {
-    name: 'ლუკა ჯაფარიძე',
+    name: 'ლუკა',
     grade: 'V კლასი',
     topic: 'ონლაინ მეგობრობა',
     solo: 'მიმართებითი დონე',
