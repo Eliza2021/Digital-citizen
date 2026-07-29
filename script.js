@@ -160,8 +160,7 @@ function initMobileMenu() {
    ------------------------------------------ */
 const studentData = {
   ani: {
-    name: 'ანი',
-    grade: 'VI კლასი',
+    name: 'მოსწავლე',
     topic: 'ინტერნეტ-მაშველები',
     solo: 'აბსტრაქტული დონე',
     soloClass: 'solo-extended',
@@ -174,12 +173,11 @@ forever
         change [CyberPoints] by (10)
     end
 end`,
-    feedback: 'ანის შეუძლია მიღებული ცოდნის განზოგადება და ახალ კონტექსტში გამოყენება. მან შექმნა საკუთარი ფუნქციური ბლოკები და რთული ლოგიკა, რაც ადასტურებს აბსტრაქტულ დონეს.',
+    feedback: 'მოსწავლეს შეუძლია მიღებული ცოდნის განზოგადება და ახალ კონტექსტში გამოყენება. მან შექმნა საკუთარი ფუნქციური ბლოკები და რთული ლოგიკა, რაც ადასტურებს აბსტრაქტულ დონეს.',
     rubricScore: '4/4 - აბსტრაქტული (Extended Abstract)'
   },
   giorgi: {
-    name: 'გიორგი',
-    grade: 'V კლასი',
+    name: 'მოსწავლე',
     topic: 'უსაფრთხო პაროლის გენერატორი',
     solo: 'მიმართებითი დონე',
     soloClass: 'solo-relational',
@@ -191,12 +189,11 @@ if <(length of (answer)) > (8)> then
 else
     say [სუსტი პაროლია!] for (2) secs
 end`,
-    feedback: 'გიორგი კარგად აკავშირებს მიზეზ-შედეგობრივ კავშირებს `if-then-else` ბლოკებში. მან სწორად გამოიყენა პირობითი ოპერატორი.',
+    feedback: 'მოსწავლე კარგად აკავშირებს მიზეზ-შედეგობრივ კავშირებს `if-then-else` ბლოკებში. მან სწორად გამოიყენა პირობითი ოპერატორი.',
     rubricScore: '3/4 - მიმართებითი (Relational)'
   },
   nino: {
-    name: 'ნინო',
-    grade: 'VI კლასი',
+    name: 'მოსწავლე',
     topic: 'კიბერ-ეტიკეტის წესები',
     solo: 'მულტიტრუქტურული დონე',
     soloClass: 'solo-multistructural',
@@ -205,24 +202,22 @@ end`,
 say [წესი 1: ნუ იტყვი ცუდ სიტყვებს] for (2) secs
 wait (1) secs
 say [წესი 2: დაიცავი პაროლი] for (2) secs`,
-    feedback: 'ნინო იყენებს რამდენიმე დამოუკიდებელ ბლოკს, თუმცა კოდი ხაზოვანია. რეკომენდაციაა პირობითი ოპერატორის დამატება.',
+    feedback: 'მოსწავლე იყენებს რამდენიმე დამოუკიდებელ ბლოკს, თუმცა კოდი ხაზოვანია. რეკომენდაციაა პირობითი ოპერატორის დამატება.',
     rubricScore: '2/4 - მულტიტრუქტურული (Multistructural)'
   },
   davit: {
-    name: 'დავით',
-    grade: 'V კლასი',
+    name: 'მოსწავლე',
     topic: 'ჩემი პირველი სპრაიტი',
     solo: 'უნისტრუქტურული დონე',
     soloClass: 'solo-unistructural',
     desc: 'პროექტში სპრაიტი ამბობს 1 ფრაზას უსაფრთხოებაზე. გამოყენებულია მხოლოდ 1-2 მარტივი ბლოკი.',
     code: `when green flag clicked
 say [დაიცავი შენი პაროლი!] for (2) secs`,
-    feedback: 'დავითი ასრულებს 1 მარტივ ოპერაციას. საჭიროებს დამხმარე მინიშნებებს მეორე სპრაიტისა და კითხვა-პასუხის ბლოკების დასამატებლად.',
+    feedback: 'მოსწავლე ასრულებს 1 მარტივ ოპერაციას. საჭიროებს დამხმარე მინიშნებებს მეორე სპრაიტისა და კითხვა-პასუხის ბლოკების დასამატებლად.',
     rubricScore: '1/4 - უნისტრუქტურული (Unistructural)'
   },
   mariam: {
-    name: 'მარიამ',
-    grade: 'VI კლასი',
+    name: 'მოსწავლე',
     topic: 'ციფრული ნაკვალევი',
     solo: 'აბსტრაქტული დონე',
     soloClass: 'solo-extended',
@@ -233,12 +228,11 @@ when I receive [ShowDigitalFootprint]
 repeat (5)
     create clone of [myself]
 end`,
-    feedback: 'მარიამმა შეძლო სამოქალაქო პრობლემის ღრმა გააზრება და შემოქმედებითი გადაწყვეტა. მან გამოიყენა კლონირების ბლოკები ნაკვალევის საილუსტრაციოდ.',
+    feedback: 'მოსწავლემ შეძლო სამოქალაქო პრობლემის ღრმა გააზრება და შემოქმედებითი გადაწყვეტა. მან გამოიყენა კლონირების ბლოკები ნაკვალევის საილუსტრაციოდ.',
     rubricScore: '4/4 - აბსტრაქტული (Extended Abstract)'
   },
   luka: {
-    name: 'ლუკა',
-    grade: 'V კლასი',
+    name: 'მოსწავლე',
     topic: 'ონლაინ მეგობრობა',
     solo: 'მიმართებითი დონე',
     soloClass: 'solo-relational',
@@ -249,7 +243,7 @@ if <(answer) = [არ ვუპასუხებ]> then
     change [Score] by (1)
     say [სწორია!] for (2) secs
 end`,
-    feedback: 'ლუკამ წარმატებით გამოიყენა ცვლადი და პირობითი ოპერატორი. პროექტი არის ინტერაქციული და პასუხობს დავალების პირობას.',
+    feedback: 'მოსწავლემ წარმატებით გამოიყენა ცვლადი და პირობითი ოპერატორი. პროექტი არის ინტერაქციული და პასუხობს დავალების პირობას.',
     rubricScore: '3/4 - მიმართებითი (Relational)'
   }
 };
@@ -267,7 +261,7 @@ function openStudentModal(studentKey) {
   body.innerHTML = `
     <div style="margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
       <div>
-        <span style="font-weight: 700; color: var(--text-dark);">${data.grade}</span> | 
+        <span style="font-weight: 700; color: var(--text-dark);">${data.name}</span> | 
         <span style="color: var(--text-muted);">${data.topic}</span>
       </div>
       <span class="solo-badge ${data.soloClass}">${data.solo}</span>
